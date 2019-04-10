@@ -11,7 +11,7 @@ if __name__ == '__main__':
     plt.xlabel("Value", fontsize=14)
     plt.ylabel("Square of Value", fontsize=14)
 
-    #Set size of tick lavels.
+    # Set size of tick lavels.
     plt.tick_params(axis='both', labelsize=14)
 
     plt.show()
