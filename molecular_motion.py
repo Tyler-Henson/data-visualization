@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 from random_walk import RandomWalk
 
 if __name__ == '__main__':
+    running = True
     # Keep making new walks, as long as the program is active.
-    while True:
+    while running:
         # Make a random walk, and plot the points.
         rw = RandomWalk(5000)
         rw.fill_walk()
@@ -26,9 +27,8 @@ if __name__ == '__main__':
         plt.show()
 
         # ONLY RUNS ONCE
-        break
 
         keep_running = input("Make another walk? (y/n): ")
         if keep_running == 'n':
-            break
+            running = False
 
