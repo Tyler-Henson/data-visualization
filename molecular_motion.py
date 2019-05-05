@@ -17,8 +17,8 @@ if __name__ == '__main__':
         plt.plot(rw.x_values, rw.y_values, linewidth=1)
 
         # Emphasize the first and last points.
-        #plt.plot(0, 0, c='green', linewidth=100)
-        #plt.plot(rw.x_values[-1], rw.y_values[-1], c='red',  edgecolors='none', s=100)
+        # plt.plot(0, 0, c='green', linewidth=100)
+        # plt.plot(rw.x_values[-1], rw.y_values[-1], c='red',  edgecolors='none', s=100)
 
         # Remove the axes.
         plt.axes().get_xaxis().set_visible(False)
